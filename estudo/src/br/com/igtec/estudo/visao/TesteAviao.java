@@ -9,8 +9,11 @@ public class TesteAviao {
 		
 		aviao.piloto = new Pessoa();
 		aviao.piloto.nome = "igor";
+		aviao.piloto.idade = 22;
+		aviao.piloto.peso = 50;
 		
 		aviao.aeromoca = new Pessoa();
+	
 		aviao.aeromoca.nome = "amanda";
 		
 		aviao.passageiro = new Pessoa();
